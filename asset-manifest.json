@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/My_portfolio/static/css/main.f2b24f0b.css",
+    "main.js": "/My_portfolio/static/js/main.4783ea81.js",
+    "static/media/profile.jpg": "/My_portfolio/static/media/profile.6ec04fae0f138c061956.jpg",
+    "static/media/resume.pdf": "/My_portfolio/static/media/resume.ccc614445738132ab3c1.pdf",
+    "static/media/location-icon.png": "/My_portfolio/static/media/location-icon.baa3a0796638b2746985.png",
+    "index.html": "/My_portfolio/index.html",
+    "main.f2b24f0b.css.map": "/My_portfolio/static/css/main.f2b24f0b.css.map",
+    "main.4783ea81.js.map": "/My_portfolio/static/js/main.4783ea81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2b24f0b.css",
+    "static/js/main.4783ea81.js"
+  ]
+}
