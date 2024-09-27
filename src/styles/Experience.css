@@ -1,0 +1,91 @@
+.experience-section {
+  padding: 100px 0;
+  background-color: #f7fafc;
+  color: #1a202c;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.experience-grid {
+  display: flex;
+  gap: 20px;  /* Space between the cards */
+  justify-content: space-between;  /* Aligns the cards next to each other */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.experience-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;  /* Each card takes up 30% of the container */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+
+  /* Add initial state for cascading animation */
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.experience-card:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.experience-card:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.experience-card:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+/* Define the cascading fade-in and slide-up animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .experience-card {
+    width: 45%;  /* Two cards per row for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .experience-card {
+    width: 100%;  /* Stack the cards vertically on small screens */
+  }
+}
